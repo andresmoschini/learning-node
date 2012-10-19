@@ -1,0 +1,23 @@
+{
+  "name" : "learning-node",
+  "homepage" : "https://github.com/andresmoschini/learning-node",
+  "author" : "Andres Moschini <andresmoschini@gmail.com>",
+  "repository" : {"type": "git", "url": "git://github.com/andresmoschini/learning-node.git"},
+  "main" : "./app/app.js",
+  "version" : "0.0.0",
+  "scripts": {
+    "start": "node ./app/app.js",
+    "test": "echo This will be the test",
+    "predeploy": "echo This will be run before deploying the app",
+    "postdeploy": "echo This will be run after deploying the app"
+  },
+  "dependencies" : {
+    "typescript-require" : "*"
+	, "underscore" : "*"
+	, "moment", "*"
+	, "colors", "*"
+	// TODO: cual será la mejor?
+	//   , "optimist", "*"
+	//   , "commander", "*"
+  }
+}
